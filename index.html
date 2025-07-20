@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Deepika Verma | Data Scientist</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+      color: #333;
+      scroll-behavior: smooth;
+    }
+
+    .container {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .profile-pic {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      border: 6px solid white;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+      object-fit: cover;
+      animation: rotateImage 10s linear infinite;
+    }
+
+    @keyframes rotateImage {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-top: 20px;
+      color: #4a148c;
+    }
+
+    .typing {
+      font-size: 1.2rem;
+      color: #6a1b9a;
+      height: 25px;
+      overflow: hidden;
+      white-space: nowrap;
+      border-right: 2px solid;
+      width: 100%;
+      margin: 10px auto 30px;
+      animation: typing 5s steps(50) infinite;
+    }
+
+    @keyframes typing {
+      0% { width: 0; }
+      50% { width: 100%; }
+      100% { width: 0; }
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 25px;
+      font-weight: bold;
+      background: #7e57c2;
+      color: white;
+      border-radius: 25px;
+      text-decoration: none;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #5e35b1;
+      transform: scale(1.05);
+    }
+
+    footer {
+      margin-top: 50px;
+      padding: 20px;
+      background: #eee;
+      color: #555;
+    }
+
+    @media (max-width: 600px) {
+      .profile-pic {
+        width: 140px;
+        height: 140px;
+      }
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <img src="deepika.jpg" alt="Deepika Verma" class="profile-pic">
+    <h1>Hi, I'm Deepika Verma 👩‍💻</h1>
+    <div class="typing">Aspiring Data Scientist | Python | Machine Learning | GitHub Projects</div>
+
+    <a href="Deepika_resume_DataScience.pdf" class="btn" download>📄 Download My Resume</a>
+    <a href="https://github.com/DEEPIKA-Inag" target="_blank" class="btn">🌐 Visit My GitHub</a>
+  </div>
+
+  <footer>
+    © 2025 Deepika Verma | Built with ❤️ using HTML + CSS
+  </footer>
+
+</body>
+</html>
